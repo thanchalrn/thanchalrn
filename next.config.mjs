@@ -1,4 +1,20 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
+const nextConfig = {
+    reactStrictMode: true,
+    swcMinify: true,
+    images: {
+      unoptimized: true,
+      domains: [],
+    },
+    eslint: {
+      ignoreDuringBuilds: true,
+    },
+    typescript: {
+      ignoreBuildErrors: true,
+    },
+    experimental: {
+      optimizePackageImports: ['lucide-react'],
+    },
+  };
+  
+  export default nextConfig;
