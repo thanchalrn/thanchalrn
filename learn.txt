@@ -1,0 +1,5 @@
+next.js
+shadcn/ui
+- แก้สีได้โดยไม่ติดข้อจำกัดของ library
+- ใช้ tailwind เป็น base
+- design ตาม redixui ที่ครอบ tailwind ให้ accesibility มากขึ้น
